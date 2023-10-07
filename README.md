@@ -10,5 +10,4 @@ All the assumptions for the calculations and material used for the code are belo
 3. NPTEL, Aerospace Propulsion by Dr. P.A. Ramakrishna, IITM.
 
 # Run code from methodOfCharateristics.m
-
-# Export coordinates of the nozzle from the variables xcoords,ycoords and use them to import into any CAD software.
+Export coordinates of the nozzle from the variables xcoords,ycoords and use them to import into any CAD software.
