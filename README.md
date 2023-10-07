@@ -8,3 +8,5 @@ All the assumptions for the calculations and material used for the code are belo
 1. Modern Compressible Flow, with Historical Perspective,Anderson, J.D, 9780070016545,McGraw-Hill series in aeronautical and aerospace engineering.
 2. NPTEL, Advanced Gas Dynamics by Dr.Rinku Mukherjee, IITM.
 3. NPTEL, Aerospace Propulsion by Dr. P.A. Ramakrishna, IITM.
+
+# Run code from methodOfCharateristics.m
