@@ -1,14 +1,14 @@
 clear all;
 clear;
-dThroat = input('Input throat Diameter of Nozzle in mm= ')/1000;
+dThroat = input('Input throat Diameter of Nozzle in mm = ')/1000;
 
 %Chamber conditionsk
 Pch = input('Input Chamber Pressure of Nozzle in Pa = ');
 Tch = input('Input Chamber Temperature of Nozzle in K = ');
 
 %Ambient Conditions
-Pa = input('Input Ambient Pressure of Nozzle in Pa= ');
-Ta = input('Input Ambient Temperature of Nozle in K= ');
+Pa = input('Input Ambient Pressure of Nozzle in Pa = ');
+Ta = input('Input Ambient Temperature of Nozle in K = ');
 
 %% 
 
@@ -67,7 +67,6 @@ end
 
 xcoords = zeros(1,1+(2*length(bottomWallGridNumber)));
 ycoords = zeros(1,1+(2*length(bottomWallGridNumber)));
-    
 
 %%
 
@@ -116,7 +115,7 @@ for i=1:numberOfMachLines
 end
 
 %%
-postprocessing(dThroat, theta_max, numberOfMachLines, bottomWallGridNumber, topWallGridNumber, theta, mu, Kpslopes, Kmslopes, contourSlopes, theta_0);
+[xcoords,ycoords] = postprocessing(dThroat, theta_max, numberOfMachLines, bottomWallGridNumber, topWallGridNumber, theta, mu, Kpslopes, Kmslopes, contourSlopes, theta_0);
 
 %% Results
 

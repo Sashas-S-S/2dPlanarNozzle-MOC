@@ -1,4 +1,4 @@
-function postprocessing(dThroat, theta_max, numberOfMachLines, bottomWallGridNumber, topWallGridNumber, theta, mu, Kpslopes, Kmslopes, contourSlopes, theta_0)
+function [xcoords,ycoords] = postprocessing(dThroat, theta_max, numberOfMachLines, bottomWallGridNumber, topWallGridNumber, theta, mu, Kpslopes, Kmslopes, contourSlopes, theta_0)
 
     for i=1:length(bottomWallGridNumber)
         Kpslopes(1,i) = (theta(1,bottomWallGridNumber(1,i)) + theta(1,topWallGridNumber(1,i)) + mu(1,bottomWallGridNumber(1,i)) + mu(1,topWallGridNumber(1,i)))/2;
